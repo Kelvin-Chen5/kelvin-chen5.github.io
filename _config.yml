@@ -1,7 +1,7 @@
 title: Kelvin Chen
 logo: /assets/img/Kelvin.jpg
-description: This is a website for projects I've worked on.
-show_downloads: true
+description:
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
