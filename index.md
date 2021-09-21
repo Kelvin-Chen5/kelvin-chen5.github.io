@@ -2,122 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# About Me
 
-[Link to another page](./another-page.html).
+Hello there! My name is Kelvin Chen. I'm currently a student attending **Western Washington University** for my Computer Science degree.  Throughout my computer science education so far, I've learned specific code algorithms (ex. search and sorting ones), data structures, the importance runtime and space complexity, object-oriented code designs, cohesion and coupling, how the computer and operating systems work, threads and processes, and computer networks.
 
-There should be whitespace between paragraphs.
+## Main Coding Languages I Have Experience With
+* Java
+* Python
+* C
+* JavaFX
+* HTML (Basic)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Also, a few of the hobbies I really enjoy are playing video games, watching anime, and dancing! ^_^ Recently, my favorite game to play is Genshin Impact, and I'm currently trying to catch up on One Piece (I started back in June 2021). At my university, I participate in a couple dance clubs: SINI-HHA (an all-inclusive Hip-Hop dance club) and High Intensity (a K-pop dance cover club, and I'm also the president of this club for this 2021-2022 school year).
 
-# Header 1
+## Projects I've Worked On
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+* [Ush MicroShell Project](./ush-microshell-project.html).
+* [Deadwood Game](./deadwood-game.html).
