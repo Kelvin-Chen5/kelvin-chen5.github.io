@@ -9,7 +9,7 @@ Hello there! My name is Kelvin Chen. I'm an aspiring software engineer that enjo
 
 Throughout my computer science education so far, I've learned specific code algorithms (ex. search and sorting ones), data structures, the importance runtime and space complexity, object-oriented code designs, cohesion and coupling, how the computer and operating systems work, threads and processes, and computer networks.
 
-#### Main Coding Languages I Have Experience With
+#### Main Coding Languages I Have Experience With:
 * Java
 * Python
 * C
