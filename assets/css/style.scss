@@ -2,3 +2,12 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+/* Whole Document */
+body{
+    background-color: #fff;
+    padding: 50px;
+    font: 12px "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#727272;
+    font-weight:400;
+}
