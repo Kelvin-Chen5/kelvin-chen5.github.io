@@ -4,7 +4,7 @@ layout: default
 
 # Ush MicroShell Project
 
-As a project for a class, I needed to create this micro version of a shell to learn more about computer systems, threads, and processes. This project was mainly coded with C.
+As a project for a class, I created a micro version of a shell that performs certain functions of a shell that include reading parsing command line arguments, using build-in commands, expanding symbols, processing scripts, and using pipelines. This project was done in order to learn more about computer systems, threads, and processes. This project was mainly coded with C.
 
 ## What is a shell?
 
