@@ -21,6 +21,6 @@ Also, a few of the hobbies I really enjoy are playing video games, watching anim
 
 # Projects I've Worked On
 
-* [Haunting of Wilson Game](./haunting-of-wilson-game.html).
+* [The Haunting of Wilson Game](./haunting-of-wilson-game.html).
 * [Ush MicroShell Project](./ush-microshell-project.html).
 * [Deadwood Game](./deadwood-game.html).
