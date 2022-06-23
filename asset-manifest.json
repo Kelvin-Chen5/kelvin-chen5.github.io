@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e986aab.css",
+    "main.js": "/static/js/main.19a663f7.js",
+    "static/js/162.6031938c.chunk.js": "/static/js/162.6031938c.chunk.js",
+    "static/js/383.922eacff.chunk.js": "/static/js/383.922eacff.chunk.js",
+    "static/js/144.a88605dc.chunk.js": "/static/js/144.a88605dc.chunk.js",
+    "static/js/942.adbcc28f.chunk.js": "/static/js/942.adbcc28f.chunk.js",
+    "static/js/399.abfdff3e.chunk.js": "/static/js/399.abfdff3e.chunk.js",
+    "static/js/992.35ca4db4.chunk.js": "/static/js/992.35ca4db4.chunk.js",
+    "static/js/387.66fbb4de.chunk.js": "/static/js/387.66fbb4de.chunk.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/Kelvin.jpg": "/static/media/Kelvin.460fe63f329d8d7c5e3f.jpg",
+    "static/media/2nd Task.png": "/static/media/2nd Task.9e310d734b36b33a0cc3.png",
+    "static/media/1st Task.png": "/static/media/1st Task.7234e76fff99e16cdf61.png",
+    "static/media/3rd Task.png": "/static/media/3rd Task.211943014d0cfc09f4e3.png",
+    "static/media/4th Task.png": "/static/media/4th Task.0351d5f37636d63a92d5.png",
+    "static/media/NotClassFinder.jpg": "/static/media/NotClassFinder.f03ff22b414f9f022594.jpg",
+    "static/media/Western Washington University Logo.png": "/static/media/Western Washington University Logo.94b0afc3981f31ebfbe6.png",
+    "static/media/LinkedIn_logo.png": "/static/media/LinkedIn_logo.ab4a89cfafbfc2451e5e.png",
+    "index.html": "/index.html",
+    "main.7e986aab.css.map": "/static/css/main.7e986aab.css.map",
+    "main.19a663f7.js.map": "/static/js/main.19a663f7.js.map",
+    "162.6031938c.chunk.js.map": "/static/js/162.6031938c.chunk.js.map",
+    "383.922eacff.chunk.js.map": "/static/js/383.922eacff.chunk.js.map",
+    "144.a88605dc.chunk.js.map": "/static/js/144.a88605dc.chunk.js.map",
+    "942.adbcc28f.chunk.js.map": "/static/js/942.adbcc28f.chunk.js.map",
+    "399.abfdff3e.chunk.js.map": "/static/js/399.abfdff3e.chunk.js.map",
+    "992.35ca4db4.chunk.js.map": "/static/js/992.35ca4db4.chunk.js.map",
+    "387.66fbb4de.chunk.js.map": "/static/js/387.66fbb4de.chunk.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e986aab.css",
+    "static/js/main.19a663f7.js"
+  ]
+}
