@@ -11,7 +11,7 @@ const AboutMe = ({}) => {
         <div class="row">
             <div class="col-1"/>
             <div class="col-sm-5 col-md-4  col-lg-3">
-                <img src={kelvinImg} width="200px" alt="img"/>
+                <img src={kelvinImg} width="250px" alt="img"/>
                 <br/>
                 <h2><b>Projects I’ve Worked On:</b></h2>
                 <ul>
