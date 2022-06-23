@@ -2,7 +2,7 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Suspense, lazy } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Outlet,
@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigation />}>
+        <Route exact path="/" element={<Navigation />}>
           <Route
             index
             element={
@@ -31,7 +31,7 @@ function App() {
             }
           />
           <Route
-            path="/MangaMangaApp"
+            exact path="/MangaMangaApp"
             element={
               <Suspense fallback={<Loading />}>
                 <MangaMangaAppView />
@@ -39,7 +39,7 @@ function App() {
             }
           />
           <Route
-            path="/NotClassFinder"
+            exact path="/NotClassFinder"
             element={
               <Suspense fallback={<Loading />}>
                 <NotClassFinderView />
@@ -47,7 +47,7 @@ function App() {
             }
           />
           <Route
-            path="/OnlineBookStore"
+            exact path="/OnlineBookStore"
             element={
               <Suspense fallback={<Loading />}>
                 <OnlineBookStoreView />
@@ -55,7 +55,7 @@ function App() {
             }
           />
           <Route
-            path="/HauntingOfWilsonGame"
+            exact path="/HauntingOfWilsonGame"
             element={
               <Suspense fallback={<Loading />}>
                 <HauntingOfWilsonGameView />
@@ -63,7 +63,7 @@ function App() {
             }
           />
           <Route
-            path="/UshMicroshellProject"
+            exact path="/UshMicroshellProject"
             element={
               <Suspense fallback={<Loading />}>
                 <UshMicroshellProjectView />
@@ -71,7 +71,7 @@ function App() {
             }
           />
           <Route
-            path="/DeadwoodGame"
+            exact path="/DeadwoodGame"
             element={
               <Suspense fallback={<Loading />}>
                 <DeadwoodGameView />
