@@ -1,13 +1,14 @@
 import { Navbar, Nav, Container, NavDropdown, Button } from "react-bootstrap";
-import styles from "../../index.css"
-import KelvinImg from "../../images/Kelvin.jpg"
+import {
+    githubImg,
+    linkedinImg
+} from "../../images"
 
 const NavBar = () => {
     return (
         <Navbar expand="lg" bg="dark" variant="dark">
             <Container fluid>
-                <Navbar.Brand href="/">
-                    <img src={KelvinImg} height="40px" alt="img"/> Kelvin Chen </Navbar.Brand>
+                <Navbar.Brand href="/"> Kelvin Chen </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -19,9 +20,9 @@ const NavBar = () => {
                         
                         <NavDropdown title="My Projects" id="basic-nav-dropdown">
                             <NavDropdown.Item href="MangaMangaApp">
-                                <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="40px" alt="img"/>
+                                {/* <img src={githubImg} height="40px" alt="img"/> */}
                                 MangaManga App</NavDropdown.Item>
-                            <NavDropdown.Item href="!ClassFinder">
+                            <NavDropdown.Item href="NotClassFinder">
                                 !ClassFinder</NavDropdown.Item>
                             <NavDropdown.Item href="OnlineBookStore">
                                 Online Book Store</NavDropdown.Item>
@@ -32,13 +33,13 @@ const NavBar = () => {
                             <NavDropdown.Item href="DeadwoodGame">
                                 Deadwood Game</NavDropdown.Item>
                         </NavDropdown>
-                        {/* id="bootstrap-overrides" className={styles.a} */}
-                        <a href="https://github.com/Kelvin-Chen5">
-                            <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="40px" alt="img"/>
-                            &lt;--Github Profile</a>
-                        <a href="https://linkedin.com/in/kelvin-chen-253658195">
-                            <img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" height="40px" alt="img"/>
-                            &lt;--LinkedIn Profile</a>
+                    </Nav>
+
+                    <Nav className="ms-auto">
+                        <a href="https://linkedin.com/in/kelvin-chen-253658195" target="_blank">
+                            <img class="logo" src={linkedinImg} height="40px" alt="img"/></a>
+                        <a href="https://github.com/Kelvin-Chen5" target="_blank">
+                            <img class="logo" src={githubImg} height="40px" alt="img"/></a>
                     </Nav>
                     {/* <Button className="d-flex" variant="outline-light" onClick={logout}>Log Out</Button> */}
                 </Navbar.Collapse>

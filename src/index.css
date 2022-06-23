@@ -12,10 +12,14 @@ code {
     monospace;
 }
 
-.m-auto {
-  margin-left: 4;
+.img-fluid {
+  min-width: 60px; 
 }
 
-#bootstrap-overrides .a {
-  color: white
+.logo {
+  margin-right: 10px;
+}
+
+.col-left{
+  margin: auto;
 }
