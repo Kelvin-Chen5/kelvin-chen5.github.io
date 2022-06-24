@@ -6,11 +6,10 @@ import {
     sinihhaImg
 } from "../../images"
 
-const AboutMe = ({}) => {
+const AboutMe = () => {
     return (
         <div class="row">
-            <div class="col-1"/>
-            <div class="col-sm-5 col-md-4  col-lg-3">
+            <div class="col-sm-5 col-md-4 col-lg-3">
                 <img src={kelvinImg} width="250px" alt="img"/>
                 <br/>
                 <h2><b>Projects I’ve Worked On:</b></h2>
@@ -31,11 +30,18 @@ const AboutMe = ({}) => {
                 </ul>
             </div>
 
-            <div class="col-5">
+            <div class="col-right col-11 col-sm-4">
                 <h2><b>About Me:</b></h2>
+                    <div class="row">
+                        <div class="col-8 col-sm-10 col-lg-8">
+                            <body>
+                                Hello! My name is Kelvin Chen. I’m an aspiring software engineer that enjoys solving problems and cooperating with others to make processes more efficient. Currently, I graduated from <b>Western Washington University</b> with a Bachelor’s degree in Computer Science and a Minor in Chinese. At the moment, I'm actively looking for available jobs as a software engineer or developer.</body></div>
+                        <div class="col-4 col-sm-2 col-lg-4">
+                            <img class="img-fluid" src={wwuImg} width="150px" alt="wwuImg"></img></div>
+                    </div>
+                    
+                <br/>
                 <body>
-                    Hello! My name is Kelvin Chen. I’m an aspiring software engineer that enjoys solving problems and cooperating with others to make processes more efficient. Currently, I graduated from <b>Western Washington University</b> with a Bachelor’s degree in Computer Science and a Minor in Chinese. At the moment, I'm actively looking for available jobs as a software engineer or developer.
-                    <br/><br/>
                     Throughout my computer science education, I’ve learned mobile app development (specifically in Android), web scripting, game development with using the Unity game engine, code algorithms (ex. search and sorting ones), data structures, the importance runtime and space complexity, object-oriented code designs, cohesion and coupling, how the computer and operating systems work, threads and processes, and computer networks.
                 </body>
                 
@@ -58,23 +64,27 @@ const AboutMe = ({}) => {
 
                 <br/>
                 
+                
+            </div>
+
+            <div class="col-right-right col-sm-2 col=md-3 col-lg-4">
                 <center><div class="row">
                     <div class="col-6">
                         <img class="logo" src={hi10Img} width="50px" alt="hi10Img"/>
-                        <a href="https://www.youtube.com/channel/UCHKePqvqdErA8V3rKkQqKig" target="_blank">
+                        <a href="https://www.youtube.com/channel/UCHKePqvqdErA8V3rKkQqKig" target="_blank" rel="noreferrer">
                             <button class="btn btn-success">High Intensity YouTube</button></a></div>
                     <div class="col-6">
                         <img class="logo" src={sinihhaImg} width="50px" alt="hi10Img"/>
-                        <a href="https://www.youtube.com/c/SINIHHA" target="_blank">
+                        <a href="https://www.youtube.com/c/SINIHHA" target="_blank" rel="noreferrer">
                             <button class="btn btn-success">SINI-HHA YouTube</button></a></div>
                 </div></center>
 
                 <br />
 
                 <div class="row">
-                    <div class="col-left col-4">
+                    <div class="center col-4">
                         <img class="img-fluid" width="300px" src="https://m.media-amazon.com/images/M/MV5BNzQ1MmJjZDUtMmI5OC00ZDk2LThkODQtODgwYmU0MTIzNDhmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_FMjpg_UX1000_.jpg" alt="haikyuuImg"/></div>
-                    <div class="col-left col-6">
+                    <div class="center col-6">
                         <img class="img-fluid" width="400px" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_GenshinImpact_miHoYoLimited_S1_2560x1440-91c6cd7312cc2647c3ebccca10f30399" alt="genshinImpactImg"/></div>
                 </div>
 
@@ -86,12 +96,8 @@ const AboutMe = ({}) => {
                     <div class="col-4">
                         <img class="img-fluid" src="https://static.wikia.nocookie.net/ninjajojos-bizarre-adventure/images/1/15/JoJoPart4.jpg" alt="jojoPart4Img"/></div>
                 </div>
-
             </div>
 
-            <div class="col-1 col-offset-1">
-                <img src={wwuImg} width="150px" alt="wwuImg"></img>
-            </div>
         </div>
     );
 }

@@ -17,9 +17,17 @@ code {
 }
 
 .logo {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
-.col-left{
+.col-right{
+  margin-left: 15px;
+}
+
+.col-right-right{
+  margin-left: auto;
+}
+
+.center{
   margin: auto;
 }

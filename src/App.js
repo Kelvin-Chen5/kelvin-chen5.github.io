@@ -5,8 +5,7 @@ import {
   HashRouter as Router,
   Routes,
   Route,
-  Outlet,
-  Navigate
+  Outlet
 } from "react-router-dom";
 import NavBar from "./layout/NavBar";
 import Spinner from "react-bootstrap/Spinner";
@@ -80,8 +79,6 @@ function App() {
               </Suspense>
             }
           />
-          
-          {/* <Navigate from='/#/MangaMangaApp' to='/MangaMangaApp' /> */}
         </Route>
       </Routes>
     </Router>

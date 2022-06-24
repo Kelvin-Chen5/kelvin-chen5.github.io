@@ -1,8 +1,8 @@
-const HauntingOfWilsonGame = ({}) => {
+const HauntingOfWilsonGame = () => {
     return (
         <>
             <div class="row">
-                <div class="col-left col-5">
+                <div class="center col-5">
                     <h1><b>The Haunting of Wilson Game</b></h1>
                     <body>
                         With one other person (Katie) and myself, we collaborated to create our own original stealth-horror game based on the Wilson Library at Western Washington University. We implemented cool player interactions and complex AI, and constructed an immersive experience through animations, lighting, and sound. This project was mainly coded with the Unity Game Engine and C#.
@@ -19,7 +19,7 @@ const HauntingOfWilsonGame = ({}) => {
                 
                 <div class="col-6">
                     <h3><b>Gameplay Demo</b></h3>
-                    <iframe width="768" height="432" src="https://youtu.be/S9gbZUwfOME" allowfullscreen/></div>
+                    <iframe class="container-fluid" width="768" height="432" src="https://www.youtube.com/embed/S9gbZUwfOME" title="The Haunting of Wilson (Game Demo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div>
             </div>
         </>
     );

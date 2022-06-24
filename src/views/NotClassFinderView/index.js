@@ -4,7 +4,7 @@ const NotClassFinder = ({}) => {
     return (
         <>
             <div class="row">
-                <div class="col-left col-5">
+                <div class="center col-5">
                     <h1><b>!ClassFinder</b> <i>(a.k.a. "Not ClassFinder")</i></h1>
                     <body>
                         This was year-long project collaborating in a team of 6 to create a new app to replace Western Washington University’s course lookup app: “ClassFinder”. !ClassFinder greatly improves the user interface and relieves the unnecessary cognitive overhead away from building schedules by hand (a feature ClassFinder lacked). We created Vision & Scope and Software Requirements Specifications (SRS) documents, and delivered progress on regular milestones and weekly reports. As part of the backend team, I helped with user research, worked on creating our API, SQL database, and load and unit testing; used Git as source control.
