@@ -15,18 +15,18 @@ const AboutMe = ({}) => {
                 <br/>
                 <h2><b>Projects I’ve Worked On:</b></h2>
                 <ul>
-                    <li><Nav.Link href="MangaMangaApp">
+                    <li><Nav.Link href="/#/MangaMangaApp">
                         {/* <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" height="40px" alt="img"/> */}
                         <button class="btn btn-primary">MangaManga App</button></Nav.Link></li>
-                    <li><Nav.Link href="NotClassFinder">
+                    <li><Nav.Link href="/#/NotClassFinder">
                         <button class="btn btn-primary">!ClassFinder</button></Nav.Link></li>
-                    <li><Nav.Link href="OnlineBookStore">
+                    <li><Nav.Link href="/#/OnlineBookStore">
                         <button class="btn btn-primary">Online Book Store</button></Nav.Link></li>
-                    <li><Nav.Link href="HauntingOfWilsonGame">
+                    <li><Nav.Link href="/#/HauntingOfWilsonGame">
                         <button class="btn btn-primary">The Haunting Of Wilson Game</button></Nav.Link></li>
-                    <li><Nav.Link href="UshMicroshellProject">
+                    <li><Nav.Link href="/#/UshMicroshellProject">
                         <button class="btn btn-primary">Ush Microshell Project</button></Nav.Link></li>
-                    <li><Nav.Link href="DeadwoodGame">
+                    <li><Nav.Link href="/#/DeadwoodGame">
                         <button class="btn btn-primary">Deadwood Game</button></Nav.Link></li>
                 </ul>
             </div>

@@ -6,6 +6,7 @@ import {
   Routes,
   Route,
   Outlet,
+  Navigate
 } from "react-router-dom";
 import NavBar from "./layout/NavBar";
 import Spinner from "react-bootstrap/Spinner";
@@ -23,7 +24,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Navigation />}>
           <Route
-            index
+            exact path ="/"
             element={
               <Suspense fallback={<Loading />}>
                 <AboutMeView />
@@ -37,6 +38,7 @@ function App() {
                 <MangaMangaAppView />
               </Suspense>
             }
+            component={MangaMangaAppView}
           />
           <Route
             exact path="/NotClassFinder"
@@ -78,6 +80,8 @@ function App() {
               </Suspense>
             }
           />
+          
+          {/* <Navigate from='/#/MangaMangaApp' to='/MangaMangaApp' /> */}
         </Route>
       </Routes>
     </Router>

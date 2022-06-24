@@ -19,18 +19,18 @@ const NavBar = () => {
                         <Nav.Link href="/">About Me</Nav.Link>
                         
                         <NavDropdown title="My Projects" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="MangaMangaApp">
+                            <NavDropdown.Item href="/#/MangaMangaApp">
                                 {/* <img src={githubImg} height="40px" alt="img"/> */}
                                 MangaManga App</NavDropdown.Item>
-                            <NavDropdown.Item href="NotClassFinder">
+                            <NavDropdown.Item href="/#/NotClassFinder">
                                 !ClassFinder</NavDropdown.Item>
-                            <NavDropdown.Item href="OnlineBookStore">
+                            <NavDropdown.Item href="/#/OnlineBookStore">
                                 Online Book Store</NavDropdown.Item>
-                            <NavDropdown.Item href="HauntingOfWilsonGame">
+                            <NavDropdown.Item href="/#/HauntingOfWilsonGame">
                                 The Haunting Of Wilson Game</NavDropdown.Item>
-                            <NavDropdown.Item href="UshMicroshellProject">
+                            <NavDropdown.Item href="/#/UshMicroshellProject">
                                 Ush Microshell Project</NavDropdown.Item>
-                            <NavDropdown.Item href="DeadwoodGame">
+                            <NavDropdown.Item href="/#/DeadwoodGame">
                                 Deadwood Game</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
