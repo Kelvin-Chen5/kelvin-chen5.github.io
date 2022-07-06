@@ -9,10 +9,7 @@ const DeadwoodGame = () => {
                     </body>
 
                     <br/>
-                    <a href="https://www.hercampus.com/school/wwu/ghost-stacks/"><button class="btn btn-primary">Reference Link to the Haunted Stories at the Wilson Library</button></a>
-                    
-                    <br/><br/>
-                    <img src="https://library.wwu.edu/files/resize/Northwest%20Collection-300x225.JPG" alt="libraryImg"/></div>
+                    <a href="https://en.wikipedia.org/wiki/Deadwood_(game)" target="_blank"><button class="btn btn-primary">Reference Link to the Game</button></a></div>
 
                 <div class="col-6">
                     <h3><b>Gameplay Demo</b></h3>
