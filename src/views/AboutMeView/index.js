@@ -59,7 +59,7 @@ const AboutMe = () => {
 
                 <br/>
                 <body>
-                    Also, a few of the hobbies I really enjoy are playing video games, watching anime, dancing, and playing volleyball! ^_^ My favorite anime is "Haikyuu!!", and recently my favorite games to play are "The Witcher 3: Wild Hunt" and "Cult of the Lamb". The anime I'm currently watching are One Piece, Dr. Stone, and Jojo's Bizarre Adventure Part 4: Diamond Is Unbreakable. At my university, I participated in a couple dance clubs: SINI-HHA (an all-inclusive Hip-Hop dance club) and High Intensity (a K-pop dance cover club, and I was the president of this club for the 2021-2022 school year). Also, I played in multiple intramural teams for volleyball throughout the school year.
+                    Also, a few of the hobbies I really enjoy are playing video games, watching anime, dancing, and playing volleyball! ^_^ My favorite anime is "Haikyuu!!", and recently my favorite games to play are "The Witcher 3: Wild Hunt" and "Teamfight Tactics". The anime I'm currently watching are One Piece, Dr. Stone, and Jojo's Bizarre Adventure Part 4: Diamond Is Unbreakable. At my university, I participated in a couple dance clubs: SINI-HHA (an all-inclusive Hip-Hop dance club) and High Intensity (a K-pop dance cover club, and I was the president of this club for the 2021-2022 school year). Also, I played in multiple intramural teams for volleyball throughout the school year.
                 </body>
 
                 <br/>
@@ -87,7 +87,7 @@ const AboutMe = () => {
                     <div class="center col-4">
                         <img class="img-fluid" width="300px" src="https://store-images.s-microsoft.com/image/apps.28990.69531514236615003.8f0d03d6-6311-4c21-a151-834503c2901a.d629260e-2bc4-4588-950c-f278cbc22a64" alt="witcher3Img"/></div>
                     <div class="center col-4">
-                        <img class="img-fluid" width="300px" src="https://image.api.playstation.com/vulcan/ap/rnd/202206/0918/Z3A3Lyd4En6Z6QQKjwEAxtNw.jpg" alt="cultOfLambImg"/></div>
+                        <img class="img-fluid" width="300px" src="https://static-cdn.jtvnw.net/ttv-boxart/513143-272x380.jpg" alt="tftImg"/></div>
                 </div>
 
                 <div class="row">
