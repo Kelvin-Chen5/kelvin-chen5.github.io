@@ -10,6 +10,10 @@ const OnlineBookStore = () => {
                         <br/>
                         Try out the website here! --&gt; <a href="https://project-92580.web.app" target="_blank" rel="noreferrer"><button class="btn btn-success">https://project-92580.web.app</button></a>
                         <br/>
+                        You can use this test account to login.
+                        <br/>Username: test@email.com
+                        <br/>Password: 123456
+                        <br/><br/>
                         (Please avoid using real credit card information. Use test cards from here instead: <a href="https://stripe.com/docs/testing">https://stripe.com/docs/testing</a>)
                     </body></div>
 
